@@ -1,0 +1,47 @@
+Root──┬─────File Operations────────Select File──┬Playback
+      │                                         ├Delete
+      │                                         ├Export to Tape──Rewind First Y/N?
+      │                                         └Erase all on selected device? Y/n
+      ├─────Record Mode───────────┬Normal
+      │                           ├Cache
+      │                           ├Loop
+      │                           └Interval
+      │
+      ├─────Transport Control─────┬Play
+      │                           ├Record
+      │                           ├Rewind
+      │                           ├Fast Forward
+      │                           ├Pause
+      │                           ├Stop
+      │                           ├Eject
+      │                           ├Adv Frame Forward
+      │                           └Adv Frame Back
+      │
+      └─────Settings──────────────┬Cam Link On/Off
+                                  ├Recording Device─────Select From detected devices
+                                  ├Interval Settings───┬Record time From .10 to 600
+                                  │                    └Record Interval From .10 to 600
+                                  │
+                                  ├Rec Destination──┬Internal SD
+                                  │                 ├External USB
+                                  │                 ├RTSP─────────Select RTSP (from pre-configured files)
+                                  │                 └RTMP─────────Select RTMP (from pre-configured files)
+                                  │
+                                  ├Wifi─────────────┬Create Hotspot
+                                  │                 └Connect─────────╴Select profile from pre-configured files
+                                  │
+                                  ├Hibernate────────┬Off
+                                  │                 ├1 Minute
+                                  │                 └5 Minutes
+                                  │
+                                  ├╴Time Settings──┬Display Elapsed
+                                  │                ├Display Remaining
+                                  │                ├System Time────────Manually set
+                                  │                ├Set via NTP Y/N────Select NTP server (From TBD List)
+                                  │                └Time Zone───Select from a list
+                                  │
+                                  ├Camera Info
+                                  │
+                                  ├Reset Settings Yes/No
+                                  │
+                                  └Update Software Yes/No
